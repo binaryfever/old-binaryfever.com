@@ -1,0 +1,81 @@
+/*Because not every browser sets display to block*/
+header, nav, section, article, footer {
+  display: block;
+}
+
+body {
+  background: #4c4c4c; 
+  font-family: "Cabin", Arial, sans-serif; font-weight: 400;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+#main_container{
+  background: white;
+  width: 500px;
+  height: 100%;
+  padding: 20px;
+  margin-top: 150px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid black;
+  -moz-box-shadow: 3px 3px 10px #000;
+  -webkit-box-shadow: 3px 3px 10px #000;
+  box-shadow: 3px 3px 10px #000;
+}
+
+#right_container{
+  float:right;
+}
+
+header{
+  height: 185px;;
+}
+
+header img{
+  float: left;
+}
+
+hgroup h1,h3{
+  margin: 0px;
+}
+
+header ul{
+  list-style-type: none;
+  float: right;
+  margin-top: 30px;
+}
+
+header li{
+  float: left;
+  padding-left: 5px;
+}
+
+nav{
+  clear: both;
+  height: 15px;
+}
+
+nav ul{
+ float: left;
+ margin-left: -40px;
+ margin-top: 0px;
+ margin-bottom: 0px;
+}
+
+nav li{
+  display: inline;
+  padding: 0px;
+  margin: 0px;
+}
+
+article header{
+  height: 100%;
+}
+
+section{
+  display: none;
+}

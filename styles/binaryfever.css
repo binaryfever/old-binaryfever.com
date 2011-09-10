@@ -1,0 +1,208 @@
+body {
+	background: #4c4c4c; 
+	font-family: "Cabin", Arial, sans-serif; font-weight: 400;
+	margin: 0px;
+	padding: 0px;
+}
+
+header{
+	margin-left: 40px;
+	margin-top:0px;
+}
+
+h1{ 
+ margin-bottom: -20px;   
+}
+
+a{
+	color: #0069D6;
+}
+
+img{
+	border: none;
+}
+
+.main_container{
+  background: white;
+  width: 500px;
+  height: 100%;
+  padding: 20px;
+  margin-top: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid black;
+}
+
+.left_container{
+	width:200px;
+	height:200px;
+	float:left;
+}
+
+.right_container{
+  	width:300px;
+	height:200px;
+	float:left;  
+}
+
+.right_container p{
+  	margin-bottom: -20px;  
+}
+
+#social {
+	height: 110px;
+	width: 100%;
+	margin-top: 90px;
+    margin-left:200px;
+}
+.shadow {
+	-moz-box-shadow: 3px 3px 10px #000;
+	-webkit-box-shadow: 3px 3px 10px #000;
+	box-shadow: 3px 3px 10px #000;
+	
+}
+
+.content{
+	width: 500px;
+	clear: both;
+
+}
+
+.content hr{
+	margin-bottom: 0px;
+}
+.content div{ 
+ display: none; 
+}
+.content p{
+	margin: 20px;
+}
+
+.available{
+	color: #62BC62;
+}
+
+#html5{
+	border: none;
+	top:40%; 
+	position: absolute;
+}
+.logo img{
+    width: 200px;
+}
+
+#contact textarea {
+    width: 480px;
+    height: 130px;
+    resize: none;
+    padding: 10px;
+    clear: both;
+}
+
+.content #contact input, #contact textarea, #contact select {
+   	display: inline-block;
+	  
+	  margin: 0;
+	  padding: 4px;
+	  font-size: 13px;
+	  
+    border: none;
+    
+    margin-bottom: 15px;
+    display: block;
+    color: #696969;
+    font: 14px Arial;
+    text-shadow: 0px 1px 1px #fff;
+	color: #808080;
+	  border: 1px solid #ccc;
+	  -webkit-border-radius: 3px;
+	  -moz-border-radius: 3px;
+	  border-radius: 3px;
+	-webkit-transition: border linear 0.2s, box-shadow linear 0.2s;
+	  -moz-transition: border linear 0.2s, box-shadow linear 0.2s;
+	  transition: border linear 0.2s, box-shadow linear 0.2s;
+	  -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+	  -moz-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+	  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.content #contact input[type=button] {
+    cursor: pointer;
+	  display: inline-block;
+	  width: 200px;
+	 
+	  
+	  color: white;
+	  font-size: 13px;
+	  line-height: 18px;
+	  border: 1px solid #ccc;
+	  
+	  -webkit-border-radius: 4px;
+	  -moz-border-radius: 4px;
+	  border-radius: 4px;
+	  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+	  -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+	  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+	  -webkit-transition: 0.1s linear all;
+	  -moz-transition: 0.1s linear all;
+	  transition: 0.1s linear all;
+	
+	  background-color: #0064cd;
+	  background-repeat: repeat-x;
+	  background-image: -khtml-gradient(linear, left top, left bottom, from(#049cdb), to(#0064cd));
+	  background-image: -moz-linear-gradient(#049cdb, #0064cd);
+	  background-image: -ms-linear-gradient(#049cdb, #0064cd);
+	  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #049cdb), color-stop(100%, #0064cd));
+	  background-image: -webkit-linear-gradient(#049cdb, #0064cd);
+	  background-image: -o-linear-gradient(#049cdb, #0064cd);
+	  background-image: linear-gradient(#049cdb, #0064cd);
+	  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	  border-color: #0064cd #0064cd #003f81;
+	  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+}
+
+
+.content #contact input[type=button]:hover {
+   	  background-position: 0 -15px;
+      color: white;
+      text-decoration: none;
+}
+
+.content #contact .alert_message{ 
+	display: block;
+	background-color: rgba(0, 0, 0, 0.15);
+	  background-repeat: repeat-x;
+	  background-image: -khtml-gradient(linear, left top, left bottom, from(transparent), to(rgba(0, 0, 0, 0.15)));
+	  background-image: -moz-linear-gradient(transparent, rgba(0, 0, 0, 0.15));
+	  background-image: -ms-linear-gradient(transparent, rgba(0, 0, 0, 0.15));
+	  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, transparent), color-stop(100%, rgba(0, 0, 0, 0.15)));
+	  background-image: -webkit-linear-gradient(transparent, rgba(0, 0, 0, 0.15));
+	  background-image: -o-linear-gradient(transparent, rgba(0, 0, 0, 0.15));
+	  background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.15));
+	  filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#15000000')";
+	  background-color: #e6e6e6;
+	  margin-bottom: 18px;
+	  padding: 8px 15px;
+	  color: #fff;
+	  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+	  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+	  -webkit-border-radius: 4px;
+	  -moz-border-radius: 4px;
+	  border-radius: 4px;
+}
+
+.content #contact .alert_message p a{
+	color: white;
+}
+.content #contact .alert_message.error{
+	  background-color: #d83a2e;
+	  background-repeat: repeat-x;
+	  background-image: -khtml-gradient(linear, left top, left bottom, from(#e4776f), to(#d83a2e));
+	  background-image: -moz-linear-gradient(#e4776f, #d83a2e);
+	  background-image: -ms-linear-gradient(#e4776f, #d83a2e);
+	  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #e4776f), color-stop(100%, #d83a2e));
+	  background-image: -webkit-linear-gradient(#e4776f, #d83a2e);
+	  background-image: -o-linear-gradient(#e4776f, #d83a2e);
+	  background-image: linear-gradient(#e4776f, #d83a2e);
+	  border-bottom-color: #b32b21;
+}
