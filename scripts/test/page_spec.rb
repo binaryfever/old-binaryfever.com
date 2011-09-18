@@ -26,4 +26,11 @@ describe "binaryfever.com" do
     browser.link(:id => "contact_link").click
     browser.section(:id=> "contact").text.should include("Contact")
   end
+
+  it "should go to linked in profile" do
+    browser.link(:href => "http://www.linkedin.com/in/fredmchale").click
+    browser.window(:title => /.*LinkedIn*./).use do
+      browser.url.should == "http://www.linkedin.com/in/fredmchale"
+    end
+  end
 end
